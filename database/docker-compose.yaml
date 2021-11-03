@@ -1,0 +1,17 @@
+version: "3"
+services:
+  database:
+    image: 'mongo'
+    container_name: 'my-mongo-container'
+    environment:
+      - MONGO_INITDB_DATABASE=first
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=password
+    volumes:
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+# enable this volume uncommenting next line if you want to mantain datas between runs :)
+#     - ./mongo-volume:/tmp/db
+    ports:
+      - "27017:27017"
+      - "27018:27018"
+      - "27019:27019"

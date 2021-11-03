@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "61829c46914595254881d99c",
+    "text": "This is the text of the first comment",
+    "author": "author",
+    "postId": "61829c46914595254881d99c"
+  },
+  {
+    "_id": "61829c46914595254881d99c",
+    "text": "This is the text of the second comment",
+    "author": "author2",
+    "postId": "61829c46914595254881d99c"
+  }
+]

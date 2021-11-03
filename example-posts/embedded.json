@@ -1,0 +1,15 @@
+// POST + COMMENTS
+{
+  "_id": "61829c46914595254881d99c",
+  "text": "This is the text of the post document",
+  "comments": [
+    {
+      "text": "This is the text of the first comment",
+      "author": "author"
+    },
+    {
+      "text": "This is the text of the second comment",
+      "author": "author2"
+    }
+  ]
+}

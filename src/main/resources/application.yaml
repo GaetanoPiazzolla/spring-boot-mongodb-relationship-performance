@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://user:password@localhost:27017/first
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            repository:
+              query: DEBUG
+            core:
+              MongoTemplate: DEBUG
+              ReactiveMongoTemplate: DEBUG
